@@ -1,0 +1,52 @@
+  .AllCard{ 
+  align-items: center;
+}
+
+.BackgroundC{ 
+  background-color: var(--blackSmall);
+  min-height: 100vh;
+}
+
+.AllContentInAllMaterial {
+  background-color: var(--blackSmall);
+  /* background-color: #edd9d9; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  
+  /* min-height: 100vh; */
+}
+
+.BtnSearch {
+  border: none ;
+  width: 48%;
+  height: 40px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 55px;
+  /* background-color: var(--cardColor); */
+  color: rgb(161, 152, 144); 
+  font-size: 16px;
+  margin-bottom: -30px;
+}
+
+@media (max-width: 768px) {
+  .BtnSearch  {
+    margin-bottom: -50px;
+
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .BtnSearch  {
+    margin-bottom: -200px;
+  }
+  .Down { 
+    margin-top: 190px;
+  }
+}
+
+
+

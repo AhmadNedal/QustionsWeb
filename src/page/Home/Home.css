@@ -1,0 +1,141 @@
+
+
+
+.landing{
+  
+  /* background: linear-gradient(rgba(0, 0, 0, 0.363) , rgba(0, 0, 0, 0.637)) , url("https://www.coachfinder.nl/wp-content/uploads/2021/06/Online-programma-online-coachen-2.jpg") ; */
+  background-size: cover;
+  height: calc(100vh - 64px);
+
+}
+
+
+.landing .intro-text { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: var(--main-color);
+  transform: translate(-50% , -50%);
+  line-height: 1.7;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TextInHeaderHomePage  {
+  font-size: 30px;
+  list-style: none;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+.AllCard{ 
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px; 
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+
+
+}
+.allDivCarded{ 
+  background-color: var(--blackSmall);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.TextInHeaderHomePageH1{ 
+  color: rgb(3, 232, 3);
+  font-weight: 800;
+  font-size: 35px;
+  text-align: center;
+}
+
+.AllButton  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+.AllButton button { 
+  color: wheat;
+}
+.AllButton button:hover {
+  color: white;
+}
+
+.TextInShowCard{ 
+  color: var(--black);
+  margin-top: 60px;
+  margin-bottom: -10px;
+  font-weight: 600;
+  text-shadow: 7px 8px 10px rgb(206, 155, 155) ;
+  font-size: 37px;
+
+}
+.ShowAllMaterialButton  {
+  background-color: rgb(87, 78, 85);
+  color: rgb(211, 198, 198);
+  margin-bottom: 60px;
+  border: none ;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: 120px;
+}
+.ShowAllMaterialButton:hover { 
+  color: white;
+  background-color: rgb(104, 97, 102);
+}
+
+
+
+
+@media (max-width: 768px) {
+  .CardContent h3 {
+    font-size: 1.2rem; 
+  }
+  .CardContent p {
+    font-size: 0.9rem;
+  }
+  .CardButton {
+    padding: 8px 16px;
+  }
+}
+
+
+
+.AllCard {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px; 
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px; */
+}
+
+
+@media (max-width: 480px) {
+  .AllCard {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+.AllCard {
+  scale: .94;
+}
+
+

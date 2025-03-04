@@ -1,0 +1,142 @@
+
+.container {  
+ padding-left: 15px;
+ padding-right: 15px;
+ margin-left: auto;
+ margin-right: auto;
+ 
+}
+
+@media(min-width : 768px) {
+  .container{ 
+    width: 750px;
+  }
+}
+
+@media(min-width : 992px) {
+  .container{ 
+    width: 970px;
+  }
+}
+
+@media(min-width : 1200px) {
+  .container{ 
+    width: 1170px;
+  }
+}
+
+.header { 
+  padding: 12px;
+  background-color: var(--white);
+}
+
+.header .container { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo{ 
+  width: 50px;
+  height: 50px;
+}
+
+.header .links {
+  position: relative;
+  height: 33px;
+  margin-top: auto; 
+}
+.header .links .icon {
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+
+}
+
+.header .links .icon span {
+  background-color: var(--black);
+  margin-bottom: 5px;
+  height: 2px;
+}
+
+
+.header .links .icon span:first-child {
+  width: 100%;
+}
+.header .links .icon span:nth-child(2) {
+  width: 60%;
+  transition: 0.3s;
+}
+.header .links .icon span:last-child {
+  width: 100%;
+}
+
+.header .links:hover .icon span:nth-child(2) {
+  width: 100%;
+}
+
+.header .links ul  {
+  list-style: none; 
+  margin: 0;
+  padding: 0 ;
+  background-color: #f6f6f6;
+  position: absolute;
+  right: 0;
+  min-width: 200px;
+  top:  calc(100%+25px);
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.header .links ul::before { 
+  content: ""; 
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #f6f6f6 transparent;
+  top: -20px;
+  right: 5px;
+  position: absolute;
+}
+
+.header .links ul li a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #222;
+  transition: 0.4s; 
+  text-align: right;
+
+}  
+.header .links ul li {
+  transition: 0.4s;
+}
+.header .links ul li a :hover{ 
+padding-right: 30px;
+}
+
+
+.header .links ul li{ 
+  border-bottom: 1px solid #c2aaaa ;
+}
+.header .links{
+  cursor: pointer;
+}
+
+
+.IconTheme { 
+  color: var(--black);
+  cursor: pointer;
+  font-size: 19px;
+  border-radius: 50%;
+  transition: 10px;
+}
+
+.IconHeader{ 
+  display: flex;
+  gap: 10px;
+  
+}
+
+

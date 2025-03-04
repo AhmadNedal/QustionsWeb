@@ -1,0 +1,34 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { 
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --main-color : rgb(23, 203, 44) ;
+  --text-size : 50px; 
+  --white : #ffffff;
+  --black : #000000;
+  --cardColor : #ffffff ;
+  --blackSmall : #f8e9e9 ;
+  --TextCardColor:#e7dede; 
+  /* --TextCardColor:#6a5757;  */
+  /* --blackSmall : #2a2525 ;  */
+}
+
+/*.Aa{
+  overflow-x: hidden;
+} */
+
+
+
+a { 
+  text-decoration: none ;
+}
+

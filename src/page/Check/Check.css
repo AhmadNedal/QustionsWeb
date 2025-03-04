@@ -1,0 +1,35 @@
+.HintCheckPerson{
+  color: red;
+  font-size: 9px;
+}
+
+.ButtonCheckPerson{
+  cursor: pointer;
+  background-color: rgb(225, 196, 196);
+  border: none;
+  border-radius: 10px;
+  padding: 7px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-top: 17px;
+  color: black;
+  transition:.3s;
+}
+
+.ButtonCheckPerson:hover{ 
+  background-color: rgb(202, 157, 157);
+  color: white;
+}
+
+
+.AllContentInCheckPerosn{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+
+
